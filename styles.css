@@ -38,7 +38,7 @@ table.dataTable {
   height: 100%;
 }
 
-/* ===== Maritime hero: animated globe / shipping lanes ===== */
+/* ===== Maritime Tracker: animated globe / shipping lanes ===== */
 .hero {
   position: relative;
   /* Break out of Quarto's content container to span the full viewport width */
