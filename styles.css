@@ -1,59 +1,465 @@
-/* css styles */
-table.dataTable thead th {
-  background-color: white !important;
-  color: black !important;
-  font-weight: bold;
-}
-.dataTables_wrapper, 
-.dataTables_length, 
-.dataTables_filter, 
-.dataTables_info, 
-.dataTables_paginate {
-  background-color: white !important;
-  color: black !important;
-}
-.dataTables_filter input {
-  background-color: white !important;
-  color: black !important;
-}
-table.dataTable {
-  border: 1px solid black !important;
+/* =========================================================
+   JOSEPH MARTINEZ — QUARTO LIGHT THEME
+   Lux base + custom styling
+
+   Background:        #e8f1ff
+   Primary Text:      #000409
+   Highlight Text:    #000000
+   Secondary Surface: #ffffff
+   ========================================================= */
+
+
+/* ===== GLOBAL ===== */
+
+html,
+body {
+  background-color: #e8f1ff;
+  color: #000409;
+  overflow-x: hidden;
 }
 
-/* Make all iframes larger and full page width */
+body {
+  min-height: 100vh;
+}
+
+
+/* ===== TYPOGRAPHY ===== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+
+p,
+li,
+dd,
+dt {
+  color: #000409;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-weight: 400;
+  border-bottom-color: rgba(0, 4, 9, 0.15);
+}
+
+
+/* ===== LINKS ===== */
+
+a {
+  color: #000409;
+  text-decoration-color: rgba(0, 4, 9, 0.4);
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration-color: #000000;
+}
+
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+  background-color: #000409 !important;
+  border-bottom: 1px solid rgba(1, 1, 1, 1);
+}
+
+.navbar-brand {
+  color: #e8f1ff !important;
+}
+
+.navbar-brand:hover {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+  color: #e8f1ff !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+}
+
+
+/* ===== NAVBAR DROPDOWNS ===== */
+
+.dropdown-menu {
+  background-color: #e8f1ff;
+  border: 1px solid rgba(0, 4, 9, 0.15);
+}
+
+.dropdown-item {
+  color: #000409;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #000000;
+  background-color: rgba(0, 4, 9, 0.06);
+}
+
+.dropdown-divider {
+  border-top-color: rgba(0, 4, 9, 0.15);
+}
+
+
+/* ===== PAGE TITLE ===== */
+
+.quarto-title-banner {
+  background-color: #000000;
+  color: #000000;
+}
+
+.quarto-title .title {
+  color: #e8f1ff;
+}
+
+.quarto-title .subtitle,
+.quarto-title-meta,
+.quarto-title-meta-heading {
+  color: #e8f1ff;
+}
+
+
+/* ===== SIDEBARS ===== */
+
+.sidebar {
+  color: #000409;
+}
+
+.sidebar a {
+  color: #000409;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  color: #000000 !important;
+}
+
+.sidebar-navigation .sidebar-item a {
+  color: #000409;
+}
+
+.sidebar-navigation .sidebar-item a:hover,
+.sidebar-navigation .sidebar-item a.active {
+  color: #000000;
+}
+
+
+/* Table of contents */
+
+#TOC a {
+  color: #000409;
+}
+
+#TOC a:hover,
+#TOC a.active {
+  color: #000000 !important;
+}
+
+
+/* ===== CARDS ===== */
+
+.card {
+  background-color: #ffffff;
+  color: #000409;
+  border: 1px solid rgba(0, 4, 9, 0.12);
+}
+
+.card-header,
+.card-footer {
+  background-color: #ffffff;
+  border-color: rgba(0, 4, 9, 0.12);
+}
+
+.card-title {
+  color: #000000;
+}
+
+.card-text {
+  color: #000409;
+}
+
+
+/* ===== STANDARD TABLES ===== */
+
+table {
+  color: #000409;
+}
+
+.table {
+  color: #000409;
+  border-color: rgba(0, 4, 9, 0.15);
+}
+
+.table > :not(caption) > * > * {
+  color: #000409;
+  background-color: transparent;
+  border-color: rgba(0, 4, 9, 0.12);
+}
+
+.table thead th {
+  color: #000000;
+  border-bottom-color: rgba(0, 4, 9, 0.3);
+}
+
+
+/* ===== DATATABLES ===== */
+
+table.dataTable {
+  background-color: #ffffff !important;
+  color: #000409 !important;
+  border: 1px solid rgba(0, 4, 9, 0.20) !important;
+}
+
+table.dataTable thead th {
+  background-color: #e8f1ff !important;
+  color: #000000 !important;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 4, 9, 0.25) !important;
+}
+
+table.dataTable tbody td {
+  background-color: #ffffff !important;
+  color: #000409 !important;
+  border-color: rgba(0, 4, 9, 0.08) !important;
+}
+
+table.dataTable tbody tr:hover td {
+  background-color: rgba(232, 241, 255, 0.65) !important;
+}
+
+
+/* DataTables controls */
+
+.dataTables_wrapper,
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+  background-color: transparent !important;
+  color: #000409 !important;
+}
+
+.dataTables_length select,
+.dataTables_filter input {
+  background-color: #ffffff !important;
+  color: #000409 !important;
+  border: 1px solid rgba(0, 4, 9, 0.25) !important;
+}
+
+.dataTables_filter input:focus,
+.dataTables_length select:focus {
+  border-color: #000409 !important;
+  outline: none;
+}
+
+
+/* Pagination */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  color: #000409 !important;
+  border: 1px solid transparent !important;
+  background: transparent !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: #000000 !important;
+  background: rgba(0, 4, 9, 0.06) !important;
+  border: 1px solid rgba(0, 4, 9, 0.15) !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  color: #e8f1ff !important;
+  background: #000409 !important;
+  border: 1px solid #000409 !important;
+}
+
+
+/* ===== CODE ===== */
+
+pre {
+  background-color: #ffffff;
+  color: #000409;
+  border: 1px solid rgba(0, 4, 9, 0.12);
+}
+
+code {
+  color: #000409;
+}
+
+p code,
+li code,
+td code {
+  background-color: rgba(0, 4, 9, 0.06);
+  color: #000000;
+}
+
+
+/* ===== BLOCKQUOTES ===== */
+
+blockquote {
+  color: #000409;
+  border-left: 3px solid #000409;
+}
+
+blockquote p {
+  color: #000409;
+}
+
+
+/* ===== CALLOUTS ===== */
+
+.callout {
+  background-color: #ffffff;
+  color: #000409;
+  border-color: rgba(0, 4, 9, 0.15);
+}
+
+.callout-title-container {
+  color: #000000;
+}
+
+
+/* ===== FORM CONTROLS ===== */
+
+input,
+textarea,
+select {
+  background-color: #ffffff;
+  color: #000409;
+  border-color: rgba(0, 4, 9, 0.25);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000409;
+  box-shadow: 0 0 0 0.15rem rgba(0, 4, 9, 0.08);
+}
+
+
+/* ===== BUTTONS ===== */
+
+.btn-primary {
+  background-color: #000409;
+  border-color: #000409;
+  color: #e8f1ff;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+.btn-outline-primary {
+  color: #000409;
+  border-color: #000409;
+}
+
+.btn-outline-primary:hover {
+  background-color: #000409;
+  color: #e8f1ff;
+}
+
+
+/* ===== HORIZONTAL RULES ===== */
+
+hr {
+  border-color: rgba(0, 4, 9, 0.15);
+  opacity: 1;
+}
+
+
+/* ===== FOOTER ===== */
+
+.nav-footer,
+footer.footer {
+  background-color: #e8f1ff;
+  color: #000409;
+  border-top: 1px solid rgba(0, 4, 9, 0.15);
+}
+
+.nav-footer a,
+footer.footer a {
+  color: #000409;
+}
+
+.nav-footer a:hover,
+footer.footer a:hover {
+  color: #000000;
+}
+
+
+/* ===== TEXT SELECTION ===== */
+
+::selection {
+  background-color: #000409;
+  color: #e8f1ff;
+}
+
+
+/* =========================================================
+   LARGE IFRAMES
+   ========================================================= */
+
 .big-iframe {
-  max-width: 1600px;   /* expand total width */
+  max-width: 1600px;
   width: 1300px;
   height: 900px;
   margin: 0 auto;
   position: relative;
-  left: 40px;          /* pushes iframe to the right */
+  left: 40px;
   border: none;
 }
-
-
 
 .big-iframe iframe {
   width: 100%;
   height: 100%;
 }
 
-/* ===== Maritime Tracker: animated globe / shipping lanes ===== */
+
+/* =========================================================
+   HOMEPAGE HERO
+   Animated globe / shipping lanes
+   ========================================================= */
+
 .hero {
   position: relative;
-  /* Break out of Quarto's content container to span the full viewport width */
+
   width: 100vw;
   left: 50%;
   margin-left: -45vw;
+
   margin-top: 0;
   margin-bottom: 2rem;
   padding: 0;
-  /* Fill the viewport below the navbar (~56px in Bootstrap/Lux) */
+
   min-height: calc(100vh - 56px);
-  background: #000409;
+
+  background: #e8f1ff;
+
   overflow: hidden;
+
   display: flex;
-  align-items: center;     /* vertically center the hero copy */
+  align-items: center;
 }
 
 .hero #globe-bg {
@@ -68,19 +474,27 @@ table.dataTable {
 .hero-content {
   position: relative;
   z-index: 1;
+
   padding: 2rem 4rem;
   max-width: 760px;
+
+  color: #000409;
+}
+
+.hero-content h1,
+.hero-content h2 {
   color: #e8f1ff;
 }
 
-/* Prevent the 100vw breakout from creating a horizontal scrollbar */
-html, body { overflow-x: hidden; }
+.hero-content p {
+  color: #e8f1ff;
+}
 
 .hero-content h1,
 .hero-content h2,
 .hero-content p {
-  color: #e8f1ff;
-  text-shadow: 0 1px 24px rgba(0, 0, 0, 0.6);
+  text-shadow:
+    0 1px 24px rgba(0, 0, 0, 0.6)
 }
 
 .hero-content h1 {
@@ -92,16 +506,44 @@ html, body { overflow-x: hidden; }
 .hero-content p {
   font-size: 1.05rem;
   line-height: 1.55;
-  color: #b9c8dc;
   max-width: 560px;
 }
 
+
+/* ===== RESPONSIVE ===== */
+
 @media (max-width: 768px) {
-  .hero { min-height: 55vh; }
-  .hero-content { padding: 3rem 1.5rem 2.5rem 1.5rem; }
+
+  .hero {
+    min-height: 55vh;
+  }
+
+  .hero-content {
+    padding: 3rem 1.5rem 2.5rem 1.5rem;
+  }
+
+  .big-iframe {
+    width: 100%;
+    height: 650px;
+    left: 0;
+  }
 }
 
+
+/* ===== REDUCED MOTION ===== */
+
 @media (prefers-reduced-motion: reduce) {
-  .hero #globe-bg { display: none; }
-  .hero { background: radial-gradient(ellipse at center, #061421 0%, #000409 70%); }
+
+  .hero #globe-bg {
+    display: none;
+  }
+
+  .hero {
+    background:
+      radial-gradient(
+        ellipse at center,
+        #ffffff 0%,
+        #e8f1ff 70%
+      );
+  }
 }
