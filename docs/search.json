@@ -32,7 +32,7 @@
     "href": "epps6356.html",
     "title": "EPPS 6356 Data Visualization | Fall 2025",
     "section": "",
-    "text": "Welcome to my coursework page for EPPS 6356:\n\nBlog\nAssignments\nGroup Project"
+    "text": "Made in collaboration with the brilliant minds of Tanmoy Biswas and Hung Tran.\n\n\n\n\nOr Click to Show/Hide Proposal\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Pitch Deck\n\n\n\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Report"
   },
   {
     "objectID": "cvresume.html",
@@ -600,5 +600,61 @@
     "title": "EPPS 6354 Information Management | Spring 2026",
     "section": "",
     "text": "Or Click to Show/Hide Pitch\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Pitch Deck\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Progress Report\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Progress Report\n\n\n\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Progress Report\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Progress Report"
+  },
+  {
+    "objectID": "epps6356.html#group-project",
+    "href": "epps6356.html#group-project",
+    "title": "EPPS 6356 Data Visualization | Fall 2025",
+    "section": "",
+    "text": "Made in collaboration with the brilliant minds of Tanmoy Biswas and Hung Tran.\n\n\n\n\nOr Click to Show/Hide Proposal\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Pitch Deck\n\n\n\n\n\n\n\n\n\n\n\n\nOr Click to Show/Hide Report"
+  },
+  {
+    "objectID": "epps6356.html#individual-assignments",
+    "href": "epps6356.html#individual-assignments",
+    "title": "EPPS 6356 Data Visualization | Fall 2025",
+    "section": "Individual Assignments",
+    "text": "Individual Assignments\n\nAssignment 1 - September 24th, 2025\nAssignment 2 - October 2nd, 2025\nAssignment 3 - October 8th, 2025\nAssignment 4 - October 10th, 2025\nAssignment 5 - October 22nd, 2025\nAssignment 6 - October 31st, 2025"
+  },
+  {
+    "objectID": "epps6356.html#reflections",
+    "href": "epps6356.html#reflections",
+    "title": "EPPS 6356 Data Visualization | Fall 2025",
+    "section": "Reflections",
+    "text": "Reflections\nWelcome to my coursework page for EPPS 6356:\n\nTeaching to See - September 10th, 2025\nJournalism in the Age of Data - September 24th, 2025"
+  },
+  {
+    "objectID": "epps6356.html#tutorial-library",
+    "href": "epps6356.html#tutorial-library",
+    "title": "EPPS 6356 Data Visualization | Fall 2025",
+    "section": "Tutorial Library",
+    "text": "Tutorial Library"
+  },
+  {
+    "objectID": "6302MethodsOfDataCollection.html",
+    "href": "6302MethodsOfDataCollection.html",
+    "title": "6302 Methods of Data Collection and Production | Fall 2026",
+    "section": "",
+    "text": "TBD"
+  },
+  {
+    "objectID": "6302MethodsOfDataCollection.html#group-project",
+    "href": "6302MethodsOfDataCollection.html#group-project",
+    "title": "6302 Methods of Data Collection and Production | Fall 2026",
+    "section": "",
+    "text": "TBD"
+  },
+  {
+    "objectID": "6302MethodsOfDataCollection.html#individual-assignments",
+    "href": "6302MethodsOfDataCollection.html#individual-assignments",
+    "title": "6302 Methods of Data Collection and Production | Fall 2026",
+    "section": "Individual Assignments",
+    "text": "Individual Assignments\nTBD"
+  },
+  {
+    "objectID": "6302MethodsOfDataCollection.html#reflections",
+    "href": "6302MethodsOfDataCollection.html#reflections",
+    "title": "6302 Methods of Data Collection and Production | Fall 2026",
+    "section": "Reflections",
+    "text": "Reflections\n\nData | September 1st, 2026\n\nWhat is data?\nData is recorded information used to describe, measure, or represent something in the real world. It can take the form of numbers, text, images, observations, or categories. What matters, though, is that data is not completely neutral; decisions about what to measure, how to measure it, and what to exclude shape the information researchers eventually analyze.\nWhat is big data?\nBig data refers to datasets that are unusually large, complex, fast-moving, or diverse enough that traditional methods may struggle to process them. Examples include social media activity, financial transactions, or large-scale sensor data. However, having more observations does not automatically make the data more accurate or useful. Large datasets can still contain bias, missing information, and poor measurements.\nSmall data?\nSmall data generally refers to more limited and manageable datasets that are often collected for a specific research question. A survey of several hundred people or a set of interviews would be examples. While small data lacks the scale of big data, it can provide more context and may actually be more useful when the research question is narrow or highly specific.\nData generation process.\nThe data generation process describes how real-world events or behaviors become observations in a dataset. This includes how information is created, measured, collected, recorded, and sometimes cleaned before analysis. Understanding this process is important because errors or biases introduced at any stage can influence the conclusions researchers draw from the data."
   }
 ]
