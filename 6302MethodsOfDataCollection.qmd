@@ -1,0 +1,18 @@
+---
+title: "6302 Methods of Data Collection and Production | Fall 2026"
+format: 
+  html:
+    code-fold: true
+---
+
+## Group Project
+
+TBD
+
+## Individual Assignments
+
+TBD
+
+## Reflections 
+
+### Data \| September 1st, 2026

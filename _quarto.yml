@@ -24,8 +24,6 @@ website:
         href: cvresume.qmd
       - text: "About"
         href: about.qmd
-      - text: "Library"
-        href: library.qmd
 
 format:
   html:

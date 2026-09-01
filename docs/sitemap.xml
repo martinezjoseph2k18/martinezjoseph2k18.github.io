@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://martinezjoseph.com/index.html</loc>
-    <lastmod>2026-05-01T04:10:59.448Z</lastmod>
+    <lastmod>2026-05-01T04:10:59.000Z</lastmod>
   </url>
   <url>
     <loc>https://martinezjoseph.com/6354InfoManagement.html</loc>
-    <lastmod>2026-05-12T04:05:51.297Z</lastmod>
+    <lastmod>2026-05-12T04:05:51.000Z</lastmod>
   </url>
   <url>
     <loc>https://martinezjoseph.com/cvresume.html</loc>
-    <lastmod>2026-02-07T03:48:53.374Z</lastmod>
+    <lastmod>2026-02-07T03:48:53.000Z</lastmod>
   </url>
   <url>
     <loc>https://martinezjoseph.com/blog.html</loc>
@@ -18,14 +18,22 @@
   </url>
   <url>
     <loc>https://martinezjoseph.com/about.html</loc>
-    <lastmod>2026-05-05T05:16:36.549Z</lastmod>
+    <lastmod>2026-05-05T05:16:36.000Z</lastmod>
   </url>
   <url>
     <loc>https://martinezjoseph.com/library.html</loc>
-    <lastmod>2026-02-07T03:48:53.382Z</lastmod>
+    <lastmod>2026-02-07T03:48:53.000Z</lastmod>
   </url>
   <url>
     <loc>https://martinezjoseph.com/epps6356.html</loc>
     <lastmod>2026-02-07T03:50:38.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://martinezjoseph.com/6356assignments.html</loc>
+    <lastmod>2026-09-01T01:32:57.962Z</lastmod>
+  </url>
+  <url>
+    <loc>https://martinezjoseph.com/6323KnowledgeMining.html</loc>
+    <lastmod>2026-05-10T20:04:54.000Z</lastmod>
   </url>
 </urlset>
