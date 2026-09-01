@@ -20,11 +20,13 @@ website:
           href: 6323KnowledgeMining.qmd
         - text: "EPPS 6354 Information Management | Spring 2026"
           href: 6354InfoManagement.qmd
+        - text: "EPPS 6302 Methods of Data Collection | Fall 2026"
+          href: 6302MethodsOfDataCollection.qmd   
       - text: "CV & Resume"
         href: cvresume.qmd
       - text: "About"
         href: about.qmd
-
+        
 format:
   html:
     theme:
