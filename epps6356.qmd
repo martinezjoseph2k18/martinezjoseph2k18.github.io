@@ -4,8 +4,64 @@ format: html
 editor: visual
 ---
 
+## Group Project
+
+### Public Trust in Banks and Financial Institutions: A Knowledge Mining Approach
+
+Made in collaboration with the brilliant minds of Tanmoy Biswas and Hung Tran.
+
+#### Project Proposal
+
+<details>
+
+<summary><strong>Or Click to Show/Hide Proposal</strong></summary>
+
+<iframe src="Tanmoy Biswas_Project Proposal.pdf" width="100%" height="800px" style="border: none; margin-top: 1em;">
+
+</iframe>
+
+</details>
+
+#### Pitch Deck
+
+<details>
+
+<summary><strong>Or Click to Show/Hide Pitch Deck</strong></summary>
+
+<iframe src="Tanmoy Biswas_Proposal Presentation.pdf" width="100%" height="800px" style="border: none; margin-top: 1em;">
+
+</iframe>
+
+</details>
+
+#### Final Presentation | [Link](FinalPresentation.qmd)
+
+#### Final Paper
+
+<details>
+
+<summary><strong>Or Click to Show/Hide Report</strong></summary>
+
+<iframe src="FinalPaper.pdf" width="100%" height="800px" style="border: none; margin-top: 1em;">
+
+</iframe>
+
+</details>
+
+## Individual Assignments
+
+- [Assignment 1 - September 24th, 2025](assignment1.qmd)
+- [Assignment 2 - October 2nd, 2025](assignment2.qmd)
+- [Assignment 3 - October 8th, 2025](assignment3.qmd)
+- [Assignment 4 - October 10th, 2025](assignment4.qmd)
+- [Assignment 5 - October 22nd, 2025](assignment5.qmd)
+- [Assignment 6 - October 31st, 2025](assignment6.qmd)
+
+## Reflections
+
 Welcome to my coursework page for EPPS 6356:
 
--   [Blog](blog.qmd)
--   [Assignments](assignments.qmd)
--   [Group Project](groupproject.qmd)
+- [Teaching to See - September 10th, 2025](druckrey.qmd)
+- [Journalism in the Age of Data - September 24th, 2025](mcghee.qmd)
+
+## [Tutorial Library](library.qmd)

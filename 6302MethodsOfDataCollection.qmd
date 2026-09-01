@@ -1,0 +1,31 @@
+---
+title: "6302 Methods of Data Collection and Production | Fall 2026"
+format: 
+  html:
+    code-fold: true
+---
+
+## Group Project
+
+TBD
+
+## Individual Assignments
+
+TBD
+
+## Reflections 
+
+### Data \| September 1st, 2026
+
+a.  What is data?\
+    Data is recorded information used to describe, measure, or represent something in the real world. It can take the form of numbers, text, images, observations, or categories. What matters, though, is that data is not completely neutral; decisions about what to measure, how to measure it, and what to exclude shape the information researchers eventually analyze.
+
+b.  What is big data?\
+    Big data refers to datasets that are unusually large, complex, fast-moving, or diverse enough that traditional methods may struggle to process them. Examples include social media activity, financial transactions, or large-scale sensor data. However, having more observations does not automatically make the data more accurate or useful. Large datasets can still contain bias, missing information, and poor measurements.
+
+c.  Small data?\
+    Small data generally refers to more limited and manageable datasets that are often collected for a specific research question. A survey of several hundred people or a set of interviews would be examples. While small data lacks the scale of big data, it can provide more context and may actually be more useful when the research question is narrow or highly specific.
+
+d.  Data generation process.
+
+    The data generation process describes how real-world events or behaviors become observations in a dataset. This includes how information is created, measured, collected, recorded, and sometimes cleaned before analysis. Understanding this process is important because errors or biases introduced at any stage can influence the conclusions researchers draw from the data.
