@@ -153,6 +153,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="dropdown-item" href="./6354InfoManagement.html">
  <span class="dropdown-text">EPPS 6354 Information Management | Spring 2026</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./6302MethodsOfDataCollection.html">
+ <span class="dropdown-text">EPPS 6302 Methods of Data Collection | Fall 2026</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -162,10 +166,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./library.html"> 
-<span class="menu-text">Library</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -421,7 +421,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/martinezjoseph\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

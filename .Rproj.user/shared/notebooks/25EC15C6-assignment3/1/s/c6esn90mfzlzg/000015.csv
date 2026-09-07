@@ -1,8 +1,0 @@
-"0",""
-"0","# Custom x-axis: month-year"
-"0","axis("
-"0","  1,"
-"0","  at = seq(min(owideu$date), max(owideu$date), by = ""1 month""),"
-"0","  labels = format(seq(min(owideu$date), max(owideu$date), by = ""1 month""), ""%m-%Y""),"
-"0","  las = 2  # rotate labels vertically"
-"0"," )"
