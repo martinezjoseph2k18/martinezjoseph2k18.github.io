@@ -1,5 +1,5 @@
 ---
-title: "6302 Methods of Data Collection and Production | Fall 2026"
+title: "EPPS 6302 Methods of Data Collection and Production | Fall 2026"
 format: 
   html:
     code-fold: true
@@ -11,7 +11,7 @@ TBD
 
 ## Individual Assignments
 
-TBD
+- [Assignment 1 - Webdesign \| September 8th, 2026](6302-A1.qmd)
 
 ## Reflections
 
