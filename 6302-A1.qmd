@@ -1,0 +1,13 @@
+---
+title: "EPPS 6302 Methods of Data Collection and Production | Fall 2026"
+subtitle: "Assignment 1 - Website Design | September 8th, 2026"
+format: 
+  html:
+    code-fold: true
+---
+
+I used this assignment as an opportunity to update and streamline some inconsistencies in my websites design. For instance, my webpage for EPPS 6356 Data Visualization was only a landing page to send a website viewing to assignments and blogs associated with the class. This was updated for the webpage to act as a dashboard for the class the way all other webpages for classes were. My Resume and CV were updated, and a webpage set up for this class, EPPS 6302 Methods of Data Collection and Production.
+
+Additional, I updated my website’s theme while keeping Lux as the underlying framework, shifting the design toward a lighter visual style inspired by the graphic on my homepage. I now use `#e8f1ff` as the primary background, `#000409` for most text and links, and `#000000` for headings, emphasis, and hover states. White is used selectively for cards, dropdowns, code blocks, tables, and form elements to create subtle contrast without breaking the overall palette. I also updated the navbar, footer, buttons, DataTables, callouts, and other interface elements so the site feels more consistent, while preserving the animated homepage hero and improving responsiveness for embedded content.
+
+This was all done to keep a consistent brand through the websites entire layout that would survive long after graduation.

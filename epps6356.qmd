@@ -34,7 +34,7 @@ Made in collaboration with the brilliant minds of Tanmoy Biswas and Hung Tran.
 
 </details>
 
-#### Final Presentation | [Link](FinalPresentation.qmd)
+#### Final Presentation \| [Link](FinalPresentation.qmd)
 
 #### Final Paper
 
